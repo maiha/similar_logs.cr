@@ -1,4 +1,4 @@
-# similar_logs.cr
+# similar_logs.cr [![Build Status](https://travis-ci.org/maiha/similar_logs.cr.svg?branch=master)](https://travis-ci.org/maiha/similar_logs.cr)
 
 Compact Array(String) with Levenshtein for [Crystal](http://crystal-lang.org/).
 
@@ -45,7 +45,7 @@ end
 
 Give similarity rate by from `0.0` to `1.0`. (default: `0.5`)
 
-```
+```crystal
 logs = SimilarLogs.new(rate: 0.5)  # default
 logs << "foo"
 logs << "bar"
